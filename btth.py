@@ -13,14 +13,20 @@ while True:
         else:
             print("Cần cải thiện chuyên cần")
         
+    while True:
+        again_choice = input("Tiếp tục chương trình? (y/n) ")
+        match again_choice:
+            case "y":
+                print("\n")
+                break
+            case "n":
+                print("Chương trình kết thúc")
+                break
+            case _:
+                print("Lỗi cú pháp")
         
-    again_choice = input("Tiếp tục chương trình? (y/n) ")
-    if again_choice == "n":
-        print("Chương trình kết thúc")
-        break
         
-        
-        
+    break
         
         
         
